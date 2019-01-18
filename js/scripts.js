@@ -28,6 +28,10 @@ $(document).ready(function (){
     let totalScore = calculateScore(q1, q2, q3, q4, q5);
     let language = yourLanguage(totalScore);
 
+    // if(language === "C#/.NET"){
+    //   $("body").css("background-image", "url(../img/C#.jpg)");
+    // }
+
     $(".result").show();
     $("#language").text(language);
   });
