@@ -12,64 +12,55 @@
   </head>
   <body>
     <div class="container">
-      <div class="c">
-        <div class="Java">
-          <div class="PHP">
-            <div class="Ruby">
-              <div class="jumbotron">
-                <h1>What Programming Languange Should I Study?</h1>
-                <br>
-                <p>Take the survey bellow to determine what programming language is the right fit for you!</p>
-              </div>
-              <!-- survey form -->
-              <form>
-                <div class="questions">
-                  <label for="question1">How important is it that a language is "easy" to learn from the start?</label>
-                  <select class="form-control" id="question1">
-                    <option value="1">Very Important</option>
-                    <option value="2">Moderately Important</option>
-                    <option value="3">Not Very Importnat</option>
-                  </select>
-                </div>
-                <div class="questions">
-                  <label for="question2">How important is it that a language is complex and has a wide variety of later use cases?</label>
-                  <select class="form-control" id="question2">
-                    <option value="1">Very Important</option>
-                    <option value="2">Moderately Important</option>
-                    <option value="3">Not Very Importnat</option>
-                  </select>
-                </div>
-                <div class="questions">
-                  <label for="question3">How important is speed?</label>
-                  <select class="form-control" id="question3">
-                    <option value="1">Very Important</option>
-                    <option value="2">Moderately Important</option>
-                    <option value="3">Not Very Importnat</option>
-                  </select>
-                </div>
-                <div class="questions">
-                  <label for="question4">How importnat is being able to easily maintain your code?</label>
-                  <select class="form-control" id="question4">
-                    <option value="1">Very Important</option>
-                    <option value="2">Moderately Important</option>
-                    <option value="3">Not Very Importnat</option>
-                  </select>
-                </div>
-                <div class="questions">
-                  <label for="question5">How important is community size?</label>
-                  <select class="form-control" id="question5">
-                    <option value="1">Very Important</option>
-                    <option value="2">Moderately Important</option>
-                    <option value="3">Not Very Importnat</option>
-                  </select>
-                </div>
-                <button type="submit" name="button">What language should I pick?</button>
-              </form>
-            </div>
-          </div>
-        </div>
+      <div class="jumbotron">
+        <h1>What Programming Languange Should I Study?</h1>
+        <br>
+        <p>Take the survey bellow to determine what programming language is the right fit for you!</p>
       </div>
-
+      <!-- survey form -->
+      <form>
+        <div class="questions">
+          <label for="question1">How important is it that a language is "easy" to learn from the start?</label>
+          <select class="form-control" id="question1">
+            <option value="1">Very Important</option>
+            <option value="2">Moderately Important</option>
+            <option value="3">Not Very Importnat</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="question2">How important is it that a language is complex and has a wide variety of later use cases?</label>
+          <select class="form-control" id="question2">
+            <option value="1">Very Important</option>
+            <option value="2">Moderately Important</option>
+            <option value="3">Not Very Importnat</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="question3">How important is speed?</label>
+          <select class="form-control" id="question3">
+            <option value="1">Very Important</option>
+            <option value="2">Moderately Important</option>
+            <option value="3">Not Very Importnat</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="question4">How importnat is being able to easily maintain your code?</label>
+          <select class="form-control" id="question4">
+            <option value="1">Very Important</option>
+            <option value="2">Moderately Important</option>
+            <option value="3">Not Very Importnat</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="question5">How important is community size?</label>
+          <select class="form-control" id="question5">
+            <option value="1">Very Important</option>
+            <option value="2">Moderately Important</option>
+            <option value="3">Not Very Importnat</option>
+          </select>
+        </div>
+        <button type="submit" name="button">What language should I pick?</button>
+      </form>
       <!-- output -->
       <div class="jumbotron result">
         <h3>Based on your answers, you should look into <span id="language"></span>!</h3>

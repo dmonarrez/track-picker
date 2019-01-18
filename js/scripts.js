@@ -10,8 +10,10 @@ function yourLanguage(score){
     return "Java/Android"
   } else if (score >= 19 && score <= 21) {
     return "PHP/Drupal"
-  } else if (score >= 22 && score <= 30) {
+  } else if (score >= 22 && score <= 26) {
     return "Ruby/Rails"
+  } else if (score >= 27 && score <= 30) {
+    return "coming back when you have a better idea of what you want"
   }
 }
 
@@ -28,10 +30,11 @@ $(document).ready(function (){
     let totalScore = calculateScore(q1, q2, q3, q4, q5);
     let language = yourLanguage(totalScore);
 
-    // if(language === "C#/.NET"){
-    //   $("body").css("background-image", "url(../img/C#.jpg)");
+    // console.log('test1');
+    // if (language === "C#/.NET"){
+    //   $('body').css('background-image','url(../img/Cimage.jpg)');
     // }
-
+    // console.log('test2');
     $(".result").show();
     $("#language").text(language);
   });
