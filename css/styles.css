@@ -1,3 +1,11 @@
 .questions {
   padding-bottom: 50px;
 }
+
+.result {
+  display: none;
+}
+
+form {
+  padding-bottom: 50px;
+}
