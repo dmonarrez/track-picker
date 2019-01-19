@@ -28,7 +28,7 @@ _Contact at davidmonarrez3@gmail.com_
 
 _Written with HTML and CSS utilizing Bootstrap for styling and formatting._
 
-_Business logic handled with a combination of JavaScript and the JS library jQuery _
+_Business logic handled with a combination of JavaScript and the JS library jQuery_
 
 ### License
 
