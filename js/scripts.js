@@ -13,7 +13,7 @@ function yourLanguage(score){
   } else if (score >= 22 && score <= 26) {
     return "Ruby/Rails"
   } else if (score >= 27 && score <= 30) {
-    return "coming back when you have a better idea of what you want"
+    return "do some more research and get an idea of what you want" //catch all case for all(or most) answers being "not very important"
   }
 }
 
@@ -35,6 +35,9 @@ $(document).ready(function (){
     //   $('body').css('background-image','url(../img/Cimage.jpg)');
     // }
     // console.log('test2');
+    //this should be working... please let me know if there is a clear issue preventing it so I can change it.
+    //id really like for this to work
+
     $(".result").show();
     $("#language").text(language);
   });
