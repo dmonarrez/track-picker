@@ -10,9 +10,9 @@ function yourLanguage(score){
     return "Java/Android"
   } else if (score >= 19 && score <= 21) {
     return "PHP/Drupal"
-  } else if (score >= 22 && score <= 26) {
+  } else if (score >= 22 && score <= 27) {
     return "Ruby/Rails"
-  } else if (score >= 27 && score <= 30) {
+  } else if (score >= 28 && score <= 30) {
     return "do some more research and get an idea of what you want" //catch all case for all(or most) answers being "not very important"
   }
 }
