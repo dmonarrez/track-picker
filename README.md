@@ -8,7 +8,7 @@
 
 _This site is a survey to help the user determine which Epicodus language track they should take based on their answers._
 
-_business logic uses point system and scale that I came up with based on quick online research about each language._
+_Business logic uses point system and scale that I came up with based on quick online research about each language._
 
 ## Setup/Installation Requirements
 
@@ -26,8 +26,9 @@ _Contact at davidmonarrez3@gmail.com_
 
 ## Technologies Used
 
-_Written with HTML and CSS utilizing Bootstrap for styling and formatting_
-_business logic handled with a combination of JavaScript and the JS library jQuery _
+_Written with HTML and CSS utilizing Bootstrap for styling and formatting._
+
+_Business logic handled with a combination of JavaScript and the JS library jQuery _
 
 ### License
 
