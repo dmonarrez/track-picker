@@ -7,6 +7,7 @@
 ## Description
 
 _This site is a survey to help the user determine which Epicodus language track they should take based on their answers_
+_business logic uses point system and scale that I came up with based on quick online research about each language._
 
 ## Setup/Installation Requirements
 
